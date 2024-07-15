@@ -1,0 +1,24 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Adjust drawer width as needed */
+  height: 100vh;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.drawer.open {
+  transform: translateX(0);
+}
+
+.drawer.closed {
+  transform: translateX(100%);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+                  
